@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eje-vsba-10.css">
+    <title>Ejercicio 10 - Calculadora Básica</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="div-container">
+            <h1>Calculadora Básica</h1>
+            <div id="div-input">
+                <input type="text" id="num1" placeholder="0" class="class-input"> 
+                <input type="text" id="num2" placeholder="0" class="class-input">
+            </div>
+            <div id="div-resultado">
+                <h3>Resultado: <label id="resultado">0.0</label></h3>
+            </div>
+            <div id="div-botones">
+                <button id="boton1" class="boton" onclick="suma()">+</button>
+                <button id="boton2" class="boton" onclick="resta()">-</button>
+                <br>
+                <button id="boton3" class="boton" onclick="multi()">*</button>
+                <button id="boton4" class="boton" onclick="dividir()">/</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2003 Victor Santiago Bañuelos Armenta</p>
+    </footer>
+    <script src="js/eje-vsba-10.js"></script>
+</body>
+</html>
